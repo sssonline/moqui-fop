@@ -28,7 +28,7 @@ apply plugin: 'com.github.ben-manes.versions'
 buildscript {
   repositories {
       jcenter()
-      maven { url "http://jcenter.bintray.com" } // backup in case https://jcenter.bintray.com does not work via jcenter
+      maven { url "https://jcenter.bintray.com" } // backup in case https://jcenter.bintray.com does not work via jcenter
   }
   dependencies { classpath 'com.github.ben-manes:gradle-versions-plugin:0.21.0' }
 }
@@ -41,7 +41,7 @@ repositories {
     flatDir name: 'localLib', dirs: frameworkDir.absolutePath + '/lib'
     flatDir name: 'librepo', dirs: projectDir.absolutePath + '/librepo'
     jcenter()
-    maven { url "http://jcenter.bintray.com" } // backup in case https://jcenter.bintray.com does not work via jcenter
+    maven { url "https://jcenter.bintray.com" } // backup in case https://jcenter.bintray.com does not work via jcenter
 }
 
 // Log4J has annotation processors, disable to avoid warning
