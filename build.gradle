@@ -14,9 +14,6 @@
 
 apply plugin: 'groovy'
 
-// sourceCompatibility = '1.8'
-// targetCompatibility = '1.8'
-
 def componentNode = parseComponent(project)
 version = componentNode.'@version'
 def jarBaseName = componentNode.'@name'
