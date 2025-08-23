@@ -78,6 +78,20 @@ the location of this file.
         </font>
         -->
 
+        <!-- ========= MICR FONTS ADDED ========= -->
+
+                <!-- Standard ConnectCode MICR E-13B -->
+                <font embed-url="component://basalt/screen/basaltstatic/fonts/CCodeSecuritySANS_S_T.ttf" embedding-mode="subset">
+                  <font-triplet name="ConnectCode MICR" style="normal" weight="normal"/>
+                </font>
+
+                <!-- Optional: ANSI X9 metrics variant -->
+                <font embed-url="component://basalt/screen/basaltstatic/fonts/ConnectCodeMICRT_X9.ttf" embedding-mode="subset">
+                  <font-triplet name="ConnectCode MICR X9" style="normal" weight="normal"/>
+                </font>
+
+        <!-- ========= END MICR FONTS ========= -->
+
         <!-- auto-detect fonts -->
         <!-- NOTE: commented this out because causes the error: "java.lang.OutOfMemoryError: Java heap space" <auto-detect/> -->
 
