@@ -90,6 +90,10 @@ the location of this file.
                   <font-triplet name="ConnectCode MICR X9" style="normal" weight="normal"/>
                 </font>
 
+                <font embed-url="component://basalt/screen/basaltstatic/fonts/micrenc.ttf" embedding-mode="subset">
+                    <font-triplet name="Basic MICR" style="normal" weight="normal"/>
+                </font>
+
         <!-- ========= END MICR FONTS ========= -->
 
         <!-- auto-detect fonts -->
